@@ -186,3 +186,105 @@ search-box input::placeholder {
 .city-hide {
     display: none;
 }
+
+
+
+@media only screen and (max-width: 400px) {
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+   background: url('image/background1.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.container {
+    position: absolute;
+    top: 80px;
+    width: 350px;
+    height: 100px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    transition: height .6s ease;
+}
+.search-box input {
+    font-size: 18px;
+}
+.weather-box {
+    height: 400px;
+}
+.weather-details i {
+    font-size: 30px;
+}
+}
+@media only screen and (max-width: 800px) and (min-width: 400px) {
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+   background: url('image/background1.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.container {
+    position: absolute;
+    top: 80px;
+    width: 350px;
+    height: 100px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    transition: height .6s ease;
+}
+.search-box input {
+    font-size: 18px;
+}
+.weather-box {
+    height: 400px;
+}
+.weather-details i {
+    font-size: 30px;
+}
+}
+@media only screen and (max-width: 1200px) and (min-width: 800px){
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+   background: url('image/background1.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.container {
+    position: absolute;
+    top: 80px;
+    width: 500px;
+    height: 100px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    transition: height .6s ease;
+}
+.search-box input {
+    font-size: 22px;
+}
+.weather-box {
+    height: 600px;
+}
+.weather-details i {
+    font-size: 50px;
+}
+}
